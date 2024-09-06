@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #dcbdb3;
+}
+
+main{
+    height: 79%;
+    width: 100%;
+}
+
+#logo h1{
+    font-family: "Nerko One", cursive;
+    font-weight: bold;
+    color: hsl(350, 76%, 70%);
+    font-size: 60px;
+    margin-left: 20px;
+}
+
+header{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(157, 225, 200);
+    position: sticky;
+    top: 0px;
+    box-shadow: 5px 10px 40px ;
+    border-radius: 20px;
+}
+
+#open-button{
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}
+
+.button1{
+    display: none;
+    font-size: 30px;
+    font-weight: bold;
+    background-color:  hsl(350, 76%, 70%);
+    border-radius: 10px;
+    border: 0px;
+    top: 0px;
+}
+
+.button2{
+    display: none;
+    font-size: 30px;
+    font-weight: bold;
+    background-color:  rgb(157, 225, 200);
+    border-radius: 10px;
+    border: 0px;
+    position: absolute;
+    bottom: 0px;
+}
+
+#back-nav{
+    background-color: rgba(44, 107, 96, 0.313);
+    width: 200px;
+    height: 400px;
+    margin-top: 30px;
+    border-radius: 10px;
+    position: absolute;
+    right: 0px;
+    top: 120px;
+}
+
+#back-nav a{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    display: block;
+    padding-left: 50px;
+    font-weight:900;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+#logo{
+    display: inline-block;
+}
+
+#frent-nav{
+    display: inline-block;
+    position: absolute;
+    right: 7rem;
+    top: 50px; 
+}
+
+#frent-nav a{
+    padding-left: 7rem;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+}
+
+#one{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.one-a{
+    width: 50%;
+    display: inline-block;
+}
+ 
+.one-a img, .one-b img{
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    display: inline-block;  
+}
+
+.one-a p, .one-b p{
+    display: inline-block; 
+}
+
+.one-b {
+    width: 49%;
+    display: inline-block;   
+}
+
+#two{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.two-a{
+    width: 50%;
+    display: inline-block;
+}
+ 
+.two-a img, .two-b img {
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    display: inline-block;
+   
+}
+
+.two-a p, .two-b p{
+    display: inline-block; 
+}
+
+.two-b {
+    width: 49%;
+    display: inline-block;   
+}
+
+#three{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.three-a{
+    width: 50%;
+    display: inline-block;
+}
+ 
+.three-a img, .three-b img{
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    display: inline-block;  
+}
+
+.three-a p, .three-b p{
+    display: inline-block; 
+}
+
+.three-b {
+    width: 49%;
+    display: inline-block;   
+}
+
+#four{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.four-a{
+    width: 50%;
+    display: inline-block;
+}
+ 
+.four-a img, .four-b img {
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    display: inline-block;  
+}
+
+.four-a p, .four-b p{
+    display: inline-block; 
+}
+
+.four-b {
+    width: 49%;
+    display: inline-block;   
+}
+
+#five{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.five-a{
+    width: 50%;
+    display: inline-block;
+}
+ 
+.five-a img, .five-b img {
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    display: inline-block;  
+}
+
+.five-a p, .five-b p{
+    display: inline-block; 
+}
+
+.five-b {
+    width: 49%;
+    display: inline-block;   
+}
+
+#six{
+    padding-left: 20px;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.six-a{
+    width: 50%;
+    display: inline-block;
+}
+ 
+.six-a img, .six-b img {
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    display: inline-block;  
+}
+
+.six-a p, .six-b p{
+    display: inline-block; 
+}
+
+.six-b {
+    width: 49%;
+    display: inline-block;   
+}
+
+#seven{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.seven-a{
+    width: 50%;
+    display: inline-block;
+}
+ 
+.seven-a img, .seven-b img {
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    display: inline-block;  
+}
+
+.seven-a p, .seven-b p{
+    display: inline-block; 
+}
+
+.seven-b {
+    width: 49%;
+    display: inline-block;   
+}
+
+#eight{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.eight-a{
+    width: 50%;
+    display: inline-block;
+}
+ 
+.eight-a img, .eight-b img {
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    display: inline-block;  
+}
+
+.eight-a p, .eight-b p{
+    display: inline-block; 
+}
+
+.eight-b {
+    width: 49%;
+    display: inline-block;   
+}
+
+#nine{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.nine-a{
+    width: 50%;
+    display: inline-block;
+}
+ 
+.nine-a img, .nine-b img {
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    display: inline-block;  
+}
+
+.nine-a p, .nine-b p{
+    display: inline-block; 
+}
+
+.nine-b {
+    width: 49%;
+    display: inline-block;   
+}
+
+#ten{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.ten-a{
+    width: 50%;
+    display: inline-block;
+}
+ 
+.ten-a img, .ten-b img {
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    display: inline-block;  
+}
+
+.ten-a p, .ten-b p{
+    display: inline-block; 
+}
+
+.ten-b {
+    width: 49%;
+    display: inline-block;   
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+    color: white;
+    background-color: rgb(13, 12, 12);
+    text-align: center;
+    padding-top: 15px;
+}
+
+@media (min-width: 374px) and (max-width: 865px){
+
+    .button1{
+        display: block;
+    }
+    .button2{
+        display: block;
+    }
+    #frent-nav a{
+        display: none;
+    }
+    .one-a{
+        display: block;
+    }
+
+    .one-b{
+        display: block;
+    }
+
+    .two-a{
+        display: block;
+    }
+
+    .two-b{
+        display: block;
+    }
+    .three-a{
+        display: block;
+    }
+
+    .three-b{
+        display: block;
+    }
+    .four-a{
+        display: block;
+    }
+
+    .four-b{
+        display: block;
+    }
+
+    .five-a{
+        display: block;
+    }
+
+    .five-b{
+        display: block;
+    }
+
+    .six-a{
+        display: block;
+    }
+
+    .six-b{
+        display: block;
+    }
+
+    .seven-a{
+        display: block;
+    }
+
+    .seven-b{
+        display: block;
+    }
+
+    .eight-a{
+        display: block;
+    }
+
+    .eight-b{
+        display: block;
+    }
+
+    .nine-a{
+        display: block;
+    }
+
+    .nine-b{
+        display: block;
+    }
+   
+    .ten-a{
+        display: block;
+    }
+
+    .ten-b{
+        display: block;
+    }
+
+}
