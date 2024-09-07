@@ -367,7 +367,7 @@ footer{
     padding-top: 15px;
 }
 
-@media (min-width: 374px) and (max-width: 865px){
+@media (min-width: 250px) and (max-width: 865px){
 
     .button1{
         display: block;
